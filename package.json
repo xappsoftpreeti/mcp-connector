@@ -1,0 +1,25 @@
+{
+  "name": "mcp-connector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:http": "node server.js",
+    "start:stdio": "node server.js --stdio",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "preeti Bissoyi",
+  "license": "ISC",
+  "description": "Tally MCP is a middleware component that allows you to connect Tally to your application.",
+  "dependencies": {
+    "@modelcontextprotocol/express": "^2.0.0",
+    "@modelcontextprotocol/node": "^2.0.0",
+    "@modelcontextprotocol/server": "^2.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "fast-xml-parser": "^5.11.0",
+    "zod": "^4.4.3"
+  },
+  "type": "module"
+}
